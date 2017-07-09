@@ -3,18 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>NomNomDom</title>
+    <script src="https://use.fontawesome.com/fe9dddb9d2.js"></script>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="../lib/nom_nom_dom.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
     <div class="app">
-      <h1 class="header">To-Do List</h1>
-      <ol class="list">
-      </ol>
+      <h1 class='title'>NomNomDom <i class="fa fa-optin-monster monster" aria-hidden="true"></i></h1>
+      <p>
+        Hello, welcome to Nom-Nom-Dom.<br /><br />
+        Nom-Nom-Dom is a DOM manipulation program that allows its users to do cool things like adding and removing DOM's!<br />
+        <br />
+        Try adding and completing a to-do!
+      </p>
       <form>
-        <input type="text" value="" class="userInput"></input>
+        <h1 class="header">To-Do List</h1>
+        <ol class="list">
+        </ol>
+        <input placeholder='name a to-do!' type="text" value="" class="userInput"></input>
         <button type="button" class="addToDo">Add</button>
+        <h4>***Click "Add" to submit***</h4>
       </form>
+      <p>
+        Adding a to-do is a combination of finding, making and appending a DOM.
+        <br /><br />
+        Removing a to-do is a combination of finding its parent DOM, removing and emptying a DOM.
+        <br /><br />
+        Nom-Nom-Dom can add, remove, make AJAX calls and more!
+        <br /><br /><br />
+        <ul class='info'>
+          <li>
+            <a href="https://sangwlee.github.io/"><i id="button" class="fa fa-globe" aria-hidden="true"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="https://github.com/sangwlee?tab=repositories"><i id="button" class="fa fa-github" aria-hidden="true"></i> Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sangwlee02/"><i id="button" class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          </li>
+        </ul>
+        </p>
     <div>
   </body>
   <script type="text/javascript" src="./demo.js" charset="utf-8"></script>

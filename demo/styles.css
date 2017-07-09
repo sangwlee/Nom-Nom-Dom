@@ -1,7 +1,111 @@
-.addToDo {
-  margin: 3px;
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
 }
 
-.completedToDo {
-  margin: 6px;
+html {
+  font-family: sans-serif;
+}
+
+.app {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 300px;
+  height: 500px;
+  position: relative;
+}
+
+p {
+  color: #505050;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+
+  position: relative;
+  top: 5px;
+  margin: 14px 0px 14px 0px;
+  /*list-style-type: none;*/
+}
+
+.info > li {
+  text-decoration: none;
+  margin: 5px 0px 0px 0px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.title {
+  /*text-align: center;*/
+  margin-bottom: 20px;
+}
+
+form {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px 10px 10px 10px;
+  margin: 25px 0px 25px 0px;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+ol > li > button {
+  position: absolute;
+  bottom: -6px;
+  right: -3.5px;
+}
+
+.info > li > a:hover {
+  color: blue;
+}
+
+.monster {
+  font-size: 40px;
+  position: absolute;
+  right: 0px;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 0px;
 }

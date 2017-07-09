@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = $l('.userInput').elements[0].value;
     const button = $l('button');
 
-    $l('.list').append(`<li>${input}<button class='completedToDo'>Completed</button></li>`);
-    $l('.userInput').elements[0].value = '';
+    if (input !== '') {
+      $l('.list').append(`<li>${input}<button type="button" class='completedToDo'>Completed</button></li>`);
+      $l('.userInput').elements[0].value = '';
+    }
 
     $l('.completedToDo').on('click', e => {
       return $l(e.currentTarget).elements[0].parentElement.remove();
