@@ -75,7 +75,7 @@ Can send AJAX requests.
 
       const xhr = new XMLHttpRequest();
       xhr.open(opts.method, opts.url);
-      xhr.onload = (xhr.status < 400) ? opts.success(xhr.response) : opts.error(xhr.response); // passing in the data fo
+      xhr.onload = (xhr.status < 400) ? opts.success(xhr.response) : opts.error(xhr.response);
       xhr.responseType = opts.dataType;
       xhr.send(opts.data);
     };
