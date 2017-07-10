@@ -1,6 +1,6 @@
 ## NomNomDom
 
-[LIVE](http://sangwlee.com/Nom-Nom-Dom/)
+[DEMO](http://sangwlee.com/Nom-Nom-Dom/)
 
 NomNomDom allows user to to make AJAX requests, handle events, manipulate DOM, and guarantee it works across browsers.
 
