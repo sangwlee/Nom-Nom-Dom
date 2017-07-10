@@ -23,14 +23,14 @@ html {
 .app {
   padding-top: 50px;
   margin: 0 auto;
-  width: 300px;
+  width: 500px;
   height: 500px;
   position: relative;
 }
 
 p {
   color: #505050;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
@@ -53,7 +53,7 @@ ol li {
 
 h1 {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 50px;
   padding: 10px 0px 10px 0px;
 }
 
@@ -62,7 +62,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+.header {
+  font-size: 20px;
+}
+
 form {
+  width: 300px;
+  margin: 0 auto;
   position: relative;
   border: 1px solid black;
   border-radius: 5px;
@@ -77,6 +83,7 @@ input {
   border: 1px solid gray;
   border-radius: 2px;
   padding: 5px;
+  width: 66%;
 }
 
 button {
@@ -96,16 +103,17 @@ ol > li > button {
 
 .info > li > a:hover {
   color: blue;
+  font-size: 18px;
 }
 
 .monster {
-  font-size: 40px;
+  font-size: 60px;
   position: absolute;
   right: 0px;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: lighter;
   margin-bottom: 0px;
 }

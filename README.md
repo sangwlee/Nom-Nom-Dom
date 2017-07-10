@@ -4,9 +4,9 @@ NomNomDom allows user to to make AJAX requests, handle events, manipulate DOM, a
 
 ### Notable Functions
 
-  1. DOM Manipulation and Traversal(#dom-manipulation-and-traversal)
-  2. Event Handling(#event-handling)
-  3. AJAX(#ajax)
+  1. [DOM Manipulation and Traversal](#dom-manipulation-and-traversal)
+  2. [Event Handling](#event-handling)
+  3. [AJAX](#ajax)
 
 ### DOM Manipulation and Traversal
 
