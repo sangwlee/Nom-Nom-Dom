@@ -1,7 +1,9 @@
 ## NomNomDom
 
 [DEMO](http://sangwlee.com/Nom-Nom-Dom/)
+<div>
 <img src="images/demo.gif" style="margin: 0 auto;"/>
+</div>
 <br />
 
 NomNomDom allows user to to make AJAX requests, handle events, manipulate DOM, and guarantee it works across browsers.
